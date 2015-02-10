@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1.0">    <!-- So that mobile webkit will display zoomed in -->
+<meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+
+<style>
+/* Resets */
+.ReadMsgBody {
+  background-color: #f2efe5;
+  width: 100%; 
+}
+
+.ExternalClass {
+  background-color: #f2efe5;
+  width: 100%;
+}
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+  line-height: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+body {
+  margin: 0; padding: 0;
+}
+
+table {
+  border-spacing: 0;
+}
+
+table td {
+  border-collapse: collapse;
+}
+
+.yshortcuts a {
+  border-bottom: none !important;
+}
+
+/* Blackbaud logo styling */
+ 
+#cv-poweredBy {
+  text-align: center;
+}
+ table[class="pattern"] .story p {
+	        max-height: 200px;
+            margin-bottom: 14px;
+            overflow: hidden;
+
+	    }
+table[class="pattern"] .readmore {
+	position: relative;
+	display: inline-block !important;
+	width: auto !important;
+	height: auto !important;
+	max-width: inherit !important;
+	max-height: inherit !important;
+	overflow: visible !important;
+	float: none !important;
+	font-size: 12px !important;
+	font-weight: bold;
+	color: #999 !important;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+	/* 2 Equal-Width Columns V2 Layout Pattern CSS */
+	@media only screen and (max-width: 599px) {
+        *[class="wrapper"] {
+			padding-top: 0 !important;
+			padding-right: 0 !important;
+			padding-bottom: 0 !important;
+			padding-left: 0 !important;
+		}	
+				
+		img.pattern {
+			max-width: 100%;
+			height: auto !important;
+		}
+		
+		td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .hero_image img {
+            width: 100%;
+            height: auto !important;
+        }
+		
+		 table[class="pattern"] .story p {
+	        max-height: 98px;
+            margin-bottom: 14px;
+            overflow: hidden;
+
+	    }
+        table[class="pattern"] #story1:target p,
+        table[class="pattern"] #story2:target p,
+        table[class="pattern"] #story3:target p
+		table[class="pattern"] #story4:target p		{
+            max-height: 150px;
+        }
+        table[class="pattern"] .readmore {
+            position: relative;
+            display: inline-block !important;
+            width: auto !important;
+            height: auto !important;
+            max-width: inherit !important;
+            max-height: inherit !important;
+            overflow: visible !important;
+            float: none !important;
+            font-size: 12px !important;
+            font-weight: bold;
+            color: #999 !important;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        table[class="pattern"] .readmore:after {
+            content: '';
+            position: absolute;
+            top: 3px;
+            right: -20px;
+            display: block;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 6px solid #999;
+        }
+	}
+	@media only screen and (max-width: 500px) {
+        table[class="pattern"] .story p{
+            max-height: 80px;
+			font-size: 110%;
+        }
+		img.pattern {
+			max-width: 100%;
+			height: auto !important;
+		}
+    }
+    
+ 
+	@media only screen and (max-width: 400px) {
+        table[class="pattern"] .story p {
+            max-height: 50px;
+			font-size: 110%;
+        }
+		img.pattern {
+			max-width: 100%;
+			height: auto !important;
+		}
+    }
+</style>
+<body bgcolor="#f2efe5" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="margin: 0; padding-top: 10px; padding-right: 0; padding-bottom: 10px; padding-left: 0;">
+<table width="100%" bgcolor="#f2efe5" cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center" style="padding-bottom: 30px;">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col" width="600px" valign="top">
+                        <table bgcolor="ffffff" cellpadding="0" cellspacing="0">
+                            <tr height="20">
+							<td class="container-padding" style="background-color: #f2efe5;" ></td>
+							</tr>
+                            <tr>
+                                <td align="center" style="font-family: Helvetica, sans-serif; padding-top: 15px; padding-bottom: 15px;">
+								
+[[S63:2]] <!-- Placeholder Text - will be replaced by the actual body. -->
+								</td>
+							</tr>
+						</table>
+						<table class="pattern" align="center" width="600px">
+				<tr>
+					<td class="pattern" width="100%" style="padding: 10px; font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center;" align="center">
+				  Casey Trees&nbsp; |&nbsp; 3030 12th Street NE&nbsp; |&nbsp; Washington, DC 20017&nbsp; |&nbsp; 202.833.4010&nbsp; |&nbsp; <a style="color: #6fa41d;" href="http://www.caseytrees.org">caseytrees.org</a>
+						<br>
+				<a style="color: #6fa41d;" href="CO">Unsubscribe</a> 
+					</td>
+				</tr>  
+			</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<br>
+<br>
+</body>
+</html>
