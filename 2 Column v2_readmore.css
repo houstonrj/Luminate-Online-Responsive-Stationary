@@ -48,20 +48,20 @@ table td {
 #cv-poweredBy {
   text-align: center;
 }
-table[class="pattern"] .story p {
+table[class="story_body"] .story p {
 		max-height: 125px;
 		margin-bottom: 14px;
 		overflow: hidden;
 
 	}
-table[class="pattern"] #story1:target p,
-table[class="pattern"] #story2:target p,
-table[class="pattern"] #story3:target p
-table[class="pattern"] #story4:target p
-table[class="pattern"] #story5:target p	{
+table[class="story_body"] #story1:target p,
+table[class="story_body"] #story2:target p,
+table[class="story_body"] #story3:target p
+table[class="story_body"] #story4:target p
+table[class="story_body"] #story5:target p	{
 		max-height: 125px;
 	}
-table[class="pattern"] .readmore {
+table[class="StoryBlock"] .readmore {
 	position: relative;
 	display: inline-block !important;
 	width: auto !important;
@@ -76,7 +76,7 @@ table[class="pattern"] .readmore {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-table[class="pattern"] .readmore:after {
+table[class="StoryBlock"] .readmore:after {
 	content: '';
 	position: absolute;
 	top: 3px;
@@ -97,13 +97,12 @@ table[class="pattern"] .readmore:after {
 			padding-left: 0 !important;
 		}	
 				
-		img.pattern {
+		img.resize {
 			max-width: 100%;
 			height: auto !important;
 		}
 		
-		td[class="container"] table { width: 100%; }
-        td[class="pattern"] .hero_image img {
+		td[class="container"] table { width: 100%; } {
             width: 100%;
             height: auto !important;
         }
@@ -114,20 +113,20 @@ table[class="pattern"] .readmore:after {
             overflow: hidden;
 
 	    }
-        table[class="pattern"] #story1:target p,
-        table[class="pattern"] #story2:target p,
-        table[class="pattern"] #story3:target p
-		table[class="pattern"] #story4:target p
-		table[class="pattern"] #story5:target p	{
+        table[class="story_body"] #story1:target p,
+        table[class="story_body"] #story2:target p,
+        table[class="story_body"] #story3:target p
+		table[class="story_body"] #story4:target p
+		table[class="story_body"] #story5:target p	{
             max-height: 125px;
         }
 	
 	@media only screen and (max-width: 500px) {
-        table[class="pattern"] .story p{
+        table[class="story_body"] .story p{
             max-height: 100px;
 			font-size: 110%;
         }
-		img.pattern {
+		img.resize {
 			max-width: 100%;
 			height: auto !important;
 		}
@@ -135,11 +134,11 @@ table[class="pattern"] .readmore:after {
     
  
 	@media only screen and (max-width: 400px) {
-        table[class="pattern"] .story p {
+        table[class="story_body"] .story p {
             max-height: 75px;
 			font-size: 105%;
         }
-		img.pattern {
+		img.resize {
 			max-width: 100%;
 			height: auto !important;
 		}
