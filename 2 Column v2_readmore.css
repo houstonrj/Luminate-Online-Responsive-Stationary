@@ -50,7 +50,7 @@ table td {
 }
 
 table[class="story_body"] .story p {
-		max-height: 125px;
+		max-height: 185px;
 		margin-bottom: 9px;
 		overflow: hidden;
 
@@ -60,7 +60,7 @@ table[class="story_body"] #story2:target p,
 table[class="story_body"] #story3:target p,
 table[class="story_body"] #story4:target p,
 table[class="story_body"] #story5:target p	{
-		max-height: 125px;
+		max-height: 999px;
 	}
 table[class="StoryBlock"] .readmore, 
 table[class="story_body"] .readmore {
@@ -111,7 +111,7 @@ table[class="story_body"] .readmore:after {
         }
 		
 		 table[class="story_body"] .story p {
-	        max-height: 125px;
+	        max-height: 138px;
             margin-bottom: 14px;
             overflow: hidden;
 
@@ -121,13 +121,13 @@ table[class="story_body"] .readmore:after {
         table[class="story_body"] #story3:target p,
 		table[class="story_body"] #story4:target p,
 		table[class="story_body"] #story5:target p	{
-            max-height: 125px;
+            max-height: 131px;
         }
 	
 	@media only screen and (max-width: 500px) {
         table[class="story_body"] .story p{
-            max-height: 100px;
-			font-size: 110%;
+            max-height: 82px;
+			
         }
 		img.resize {
 			max-width: 100%;
@@ -137,8 +137,8 @@ table[class="story_body"] .readmore:after {
      
 	@media only screen and (max-width: 400px) {
         table[class="story_body"] .story p {
-            max-height: 75px;
-			font-size: 105%;
+            max-height: 82px;
+			
         }
 		img.resize {
 			max-width: 100%;
@@ -149,13 +149,13 @@ table[class="story_body"] .readmore:after {
 <body bgcolor="#f2efe5" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="margin: 0; padding-top: 10px; padding-right: 0; padding-bottom: 10px; padding-left: 0;">
 <table width="100%" bgcolor="#f2efe5" cellpadding="0" cellspacing="0">
     <tr>
-        <td class="container" width="600" align="center" style="padding-bottom: 30px;">
+        <td class="container" width="100%" align="center" style="padding-bottom: 30px;">
             <table cellpadding="0" cellspacing="0">
                 <tr>
-                    <td class="col" width="600px" valign="top">
+                    <td width="100%" valign="top">
                         <table bgcolor="ffffff" cellpadding="0" cellspacing="0">
                             <tr height="20">
-							<td class="container-padding" style="background-color: #f2efe5;" ></td>
+							<td style="background-color: #f2efe5;"></td>
 							</tr>
                             <tr>
                                 <td align="center" style="font-family: Helvetica, sans-serif; padding-top: 15px; padding-bottom: 15px;">
@@ -171,7 +171,22 @@ table[class="story_body"] .readmore:after {
 						<br>
 				<a style="color: #6fa41d;" href="CO">Unsubscribe</a> 
 					</td>
-				</tr>  
+				</tr> 
+				<tr>
+					<td class="container" width="100%" style="font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center; padding-bottom: 10px;" align="center">
+					
+<a href="http://www.facebook.com/pages/Casey-Trees/58793928339"><img src="http://caseytrees.org/static/facebook-70.png" width="35" height="35"></a> &nbsp; &nbsp;
+
+ <a href="http://twitter.com/caseytrees"><img src="http://caseytrees.org/static/twitter-70.png" width="35" height="35"></a> &nbsp; &nbsp;
+
+ <a href="http://instagram.com/CaseyTrees"><img src="http://caseytrees.org/static/instagram-70.png" width="35" height="35"></a> &nbsp; &nbsp;
+
+ <a href="http://flickr.com/photos/caseytrees"><img src="http://caseytrees.org/static/flickr-70.png" width="35" height="35"></a> &nbsp; &nbsp;
+
+ <a href="http://www.youtube.com/caseytrees"><img src="http://caseytrees.org/static/youtube-70.png" width="35" height="35"></a> &nbsp; &nbsp; 
+
+					</td>
+				</tr>
 			</table>
 					</td>
 				</tr>
