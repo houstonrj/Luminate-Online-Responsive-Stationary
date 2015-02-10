@@ -48,20 +48,22 @@ table td {
 #cv-poweredBy {
   text-align: center;
 }
+
 table[class="story_body"] .story p {
 		max-height: 125px;
-		margin-bottom: 14px;
+		margin-bottom: 9px;
 		overflow: hidden;
 
 	}
 table[class="story_body"] #story1:target p,
 table[class="story_body"] #story2:target p,
-table[class="story_body"] #story3:target p
-table[class="story_body"] #story4:target p
+table[class="story_body"] #story3:target p,
+table[class="story_body"] #story4:target p,
 table[class="story_body"] #story5:target p	{
 		max-height: 125px;
 	}
-table[class="StoryBlock"] .readmore {
+table[class="StoryBlock"] .readmore, 
+table[class="story_body"] .readmore {
 	position: relative;
 	display: inline-block !important;
 	width: auto !important;
@@ -76,7 +78,8 @@ table[class="StoryBlock"] .readmore {
 	text-decoration: none;
 	text-transform: uppercase;
 }
-table[class="StoryBlock"] .readmore:after {
+table[class="StoryBlock"] .readmore:after,
+table[class="story_body"] .readmore:after {
 	content: '';
 	position: absolute;
 	top: 3px;
@@ -115,8 +118,8 @@ table[class="StoryBlock"] .readmore:after {
 	    }
         table[class="story_body"] #story1:target p,
         table[class="story_body"] #story2:target p,
-        table[class="story_body"] #story3:target p
-		table[class="story_body"] #story4:target p
+        table[class="story_body"] #story3:target p,
+		table[class="story_body"] #story4:target p,
 		table[class="story_body"] #story5:target p	{
             max-height: 125px;
         }
@@ -131,8 +134,7 @@ table[class="StoryBlock"] .readmore:after {
 			height: auto !important;
 		}
     }
-    
- 
+     
 	@media only screen and (max-width: 400px) {
         table[class="story_body"] .story p {
             max-height: 75px;
@@ -164,7 +166,7 @@ table[class="StoryBlock"] .readmore:after {
 						</table>
 						<table class="container" width="100%" align="center" >
 				<tr>
-					<td class="container" width="100%" style="font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center;" align="center">
+					<td class="container" width="100%" style="font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center; padding-bottom: 10px;" align="center">
 				  Casey Trees&nbsp; |&nbsp; 3030 12th Street NE&nbsp; |&nbsp; Washington, DC 20017&nbsp; |&nbsp; 202.833.4010&nbsp; |&nbsp; <a style="color: #6fa41d;" href="http://www.caseytrees.org">caseytrees.org</a>
 						<br>
 				<a style="color: #6fa41d;" href="CO">Unsubscribe</a> 
