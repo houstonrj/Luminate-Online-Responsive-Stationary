@@ -89,7 +89,9 @@ table[class="story_body"] .readmore:after {
 	border-right: 6px solid transparent;
 	border-top: 6px solid #999;
 }
-
+table[class="button-container"]{
+	width: 250px !important;
+}
 
 	/* 2 Equal-Width Columns V2 Layout Pattern CSS */
 	@media only screen and (max-width: 599px) {
@@ -99,23 +101,27 @@ table[class="story_body"] .readmore:after {
 			padding-bottom: 0 !important;
 			padding-left: 0 !important;
 		}	
-				
+	table[class="button-container"]{
+		width: 250px !important;
+		}		
 		img.resize {
 			max-width: 100%;
 			height: auto !important;
 		}
-		
+		table[class="button"]{
+			width:250px;
+		}
 		td[class="container"] table { width: 100%; } {
             width: 100%;
             height: auto !important;
         }
 		
-		 table[class="story_body"] .story p {
+		table[class="story_body"] .story p {
 	        max-height: 138px;
             margin-bottom: 14px;
             overflow: hidden;
-
 	    }
+		
         table[class="story_body"] #story1:target p,
         table[class="story_body"] #story2:target p,
         table[class="story_body"] #story3:target p,
@@ -127,20 +133,29 @@ table[class="story_body"] .readmore:after {
 	@media only screen and (max-width: 500px) {
         table[class="story_body"] .story p{
             max-height: 82px;
-			
-        }
+		}
+		table[class="button"]{
+			width:250px;
+		}
 		img.resize {
 			max-width: 100%;
 			height: auto !important;
 		}
     }
-     
+     table[class="button-container"]{
+		width: 250px !important;
+		}		
 	@media only screen and (max-width: 400px) {
         table[class="story_body"] .story p {
             max-height: 82px;
-			
         }
-		img.resize {
+	table[class="button-container"]{
+		width: 70% !important;
+		}		
+	table[class="button"]{
+			width:250px;
+		}		
+	img.resize {
 			max-width: 100%;
 			height: auto !important;
 		}
@@ -166,7 +181,7 @@ table[class="story_body"] .readmore:after {
 						</table>
 						<table class="container" width="100%" align="center" >
 				<tr>
-					<td class="container" width="100%" style="font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center; padding-bottom: 10px;" align="center">
+					<td class="container" width="100%" style="font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center; padding-bottom: 10px; padding-top: 5px;" align="center">
 				  Casey Trees&nbsp; |&nbsp; 3030 12th Street NE&nbsp; |&nbsp; Washington, DC 20017&nbsp; |&nbsp; 202.833.4010&nbsp; |&nbsp; <a style="color: #6fa41d;" href="http://www.caseytrees.org">caseytrees.org</a>
 						<br>
 				<a style="color: #6fa41d;" href="CO">Unsubscribe</a> 
