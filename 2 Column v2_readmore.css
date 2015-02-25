@@ -163,42 +163,40 @@ table[class="button-container"]{
 </style>
 <body bgcolor="#f2efe5" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="margin: 0; padding-top: 10px; padding-right: 0; padding-bottom: 10px; padding-left: 0;">
 <table width="100%" bgcolor="#f2efe5" cellpadding="0" cellspacing="0">
-    <tr>
+    <tr height="20">
+		<td style="background-color: #f2efe5;"></td>
+		</tr>
+		<tr>
         <td class="container" width="100%" align="center" style="padding-bottom: 30px;">
-            <table cellpadding="0" cellspacing="0">
-                <tr>
-                    <td width="100%" valign="top">
                         <table bgcolor="ffffff" cellpadding="0" cellspacing="0">
-                            <tr height="20">
-							<td style="background-color: #f2efe5;"></td>
-							</tr>
                             <tr>
                                 <td align="center" style="font-family: Helvetica, sans-serif; padding-top: 15px; padding-bottom: 15px;">
 								
 [[S63:2]] <!-- Placeholder Text - will be replaced by the actual body. -->
+<a style="color: #6fa41d;" href="CO">Unsubscribe</a> 
 								</td>
 							</tr>
-						</table>
-						<table class="container" width="100%" align="center" >
-				<tr>
-					<td class="container" width="100%" style="font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center; padding-bottom: 10px; padding-top: 5px;" align="center">
+							<tr class="footer">
+					<td width="100%" style="font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center; padding-bottom: 10px; padding-top: 5px;" align="center">
 				  Casey Trees&nbsp; |&nbsp; 3030 12th Street NE&nbsp; |&nbsp; Washington, DC 20017&nbsp; |&nbsp; 202.833.4010&nbsp; |&nbsp; <a style="color: #6fa41d;" href="http://www.caseytrees.org">caseytrees.org</a>
 						<br>
-				<a style="color: #6fa41d;" href="CO">Unsubscribe</a> 
+				
 					</td>
 				</tr> 
+				</table>
+				<table>
 				<tr>
 					<td class="container" width="100%" style="font-size: 12px; line-height: 20px; font-family: Helvetica, sans-serif; color: #6a5f56; background-color: #e5dfcc; text-align: center; padding-bottom: 10px;" align="center">
 					
 <a href="http://www.facebook.com/pages/Casey-Trees/58793928339"><img src="http://caseytrees.org/static/facebook-70.png" width="35" height="35"></a> &nbsp; &nbsp;
 
- <a href="http://twitter.com/caseytrees"><img src="http://caseytrees.org/static/twitter-70.png" width="35" height="35"></a> &nbsp; &nbsp;
+<a href="http://twitter.com/caseytrees"><img src="http://caseytrees.org/static/twitter-70.png" width="35" height="35"></a> &nbsp; &nbsp;
 
- <a href="http://instagram.com/CaseyTrees"><img src="http://caseytrees.org/static/instagram-70.png" width="35" height="35"></a> &nbsp; &nbsp;
+<a href="http://instagram.com/CaseyTrees"><img src="http://caseytrees.org/static/instagram-70.png" width="35" height="35"></a> &nbsp; &nbsp;
 
- <a href="http://flickr.com/photos/caseytrees"><img src="http://caseytrees.org/static/flickr-70.png" width="35" height="35"></a> &nbsp; &nbsp;
+<a href="http://flickr.com/photos/caseytrees"><img src="http://caseytrees.org/static/flickr-70.png" width="35" height="35"></a> &nbsp; &nbsp;
 
- <a href="http://www.youtube.com/caseytrees"><img src="http://caseytrees.org/static/youtube-70.png" width="35" height="35"></a> &nbsp; &nbsp; 
+<a href="http://www.youtube.com/caseytrees"><img src="http://caseytrees.org/static/youtube-70.png" width="35" height="35"></a> &nbsp; &nbsp; 
 
 					</td>
 				</tr>
@@ -206,9 +204,6 @@ table[class="button-container"]{
 					</td>
 				</tr>
 			</table>
-		</td>
-	</tr>
-</table>
 <br>
 <br>
 </body>
